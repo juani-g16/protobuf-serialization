@@ -1,4 +1,4 @@
-# PC-ESP32 Protobuf UART Communication System �⚡
+# PC-ESP32 Protobuf UART Communication System
 
 This is a personal project demonstrating a bidirectional communication system between a PC and an ESP32 microcontroller using UART with Protocol Buffers for efficient data serialization.
 
