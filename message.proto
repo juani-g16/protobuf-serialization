@@ -1,0 +1,5 @@
+syntax = "proto3";
+message Payload {
+  uint32 timestamp = 1;  // Unix timestamp in seconds (fits in 32-bit until 2106)
+  string data = 2;
+}

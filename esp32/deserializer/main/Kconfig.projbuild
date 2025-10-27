@@ -1,0 +1,25 @@
+menu "Deserializer Program UART configuration"
+    config DESERIALIZER_UART_TX_PIN
+        int "UART TX pin"
+        default 42
+        help
+          Set the TX pin for the UART.
+
+    config DESERIALIZER_UART_RX_PIN
+        int "UART RX pin"
+        default 41
+        help
+          Set the RX pin for the UART.
+
+    config DESERIALIZER_UART_NUMBER
+        int "UART number"
+        default 2
+        help
+          Select the UART number for the deserializer.
+    
+    config DESERIALIZER_UART_BAUD_RATE
+        int "UART baud rate"
+        default 9600
+        help
+          Set the UART baud rate for the deserializer.
+endmenu

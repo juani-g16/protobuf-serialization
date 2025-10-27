@@ -1,0 +1,27 @@
+# This style is specifically for C code. It's based on the Google style guide,
+# with inspiration from the LLVM and Rust styles.
+---
+Language: Cpp
+BasedOnStyle: Google
+AccessModifierOffset: -2
+AlignAfterOpenBracket: false
+AlignOperands: DontAlign
+AlignTrailingComments:
+  Kind: Never
+  OverEmptyLines: 0
+AllowShortBlocksOnASingleLine: Always
+BreakBeforeBinaryOperators: NonAssignment
+ColumnLimit: 100
+ContinuationIndentWidth: 8
+Cpp11BracedListStyle: false
+DerivePointerAlignment: false
+IndentCaseLabels: false
+IndentGotoLabels: false
+IndentWidth: 4
+InsertBraces: true
+InsertNewlineAtEOF: true
+ObjCBlockIndentWidth: 4
+QualifierAlignment: Custom
+QualifierOrder: [static, inline, type, const, volatile]
+SpaceInEmptyBlock: true
+...
